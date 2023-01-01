@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 45%;
+}
+.section{
+    padding:20px;
+    background-color: white;
+    margin:1em 0em;
+    box-shadow:2px 5px 9px #00000013;
+    border-radius:3px;
+}
+.title{
+    font-size:2rem;
+    vertical-align: middle;
+    color: saddlebrown;
+}
+.button{
+    padding:3px 5px;
+    border: 2px dashed saddlebrown;
+    color: saddlebrown;
+    width: fit-content;
+}
+.top_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.description{
+    border-top: 1px solid rgba(0, 0, 0, 0.171);
+    padding-top: 20px;
+    display: none;
+}
